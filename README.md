@@ -2,10 +2,18 @@
 
 This repo aims to be a template in which a blog post made in markdown will be automatically posted to a corresponding nostr blog site, with relays and npub keys specified in the setup. 
 
-We use an astro starter blog, but the automatic repost can be used with any astro blog or markdown blog. 
+Examples of nostr blog sites are habla.news and blogstack.io. Some but not all relays will accept long form content. Please check the spec over here: https://github.com/nostr-protocol/nips/blob/master/23.md
+
+We use an astro starter blog, but the automatic repost setup can be used with any astro blog or markdown blog. 
+
+The script we create to auto post to nostr can be reused elsewhere for different applications. 
+
+Other code Examples to checkout for auto posting to nostr: 
+- https://github.com/davestgermain/nostr_bot [python]
+- https://github.com/slaninas/nostr-bot [Rust]
 
 
-# Astro Starter Kit: Blog
+##  Astro Starter Kit: Blog
 
 ```
 npm create astro@latest -- --template blog
