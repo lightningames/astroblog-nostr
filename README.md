@@ -1,3 +1,10 @@
+# Astro blog Nostr bridge 
+
+This repo aims to be a template in which a blog post made in markdown will be automatically posted to a corresponding nostr blog site, with relays and npub keys specified in the setup. 
+
+We use an astro starter blog, but the automatic repost can be used with any astro blog or markdown blog. 
+
+
 # Astro Starter Kit: Blog
 
 ```
