@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -129,7 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-=======
 # build output
 dist/
 # generated types
@@ -151,4 +149,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
->>>>>>> f5d8b4b (initial)
+
+# ignore env
+venv
+env
